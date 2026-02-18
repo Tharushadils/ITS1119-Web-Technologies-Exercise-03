@@ -1,0 +1,41 @@
+
+.fixed {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.outer{
+    width: 350px;
+    height: 350px;
+    background-color: grey;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner {
+    width: 320px;
+    height: 320px;
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-area {
+    width: 280px;
+    height: 280px;
+    background-color: purple;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    overflow-y: auto;
+}
+
+.content-area::-webkit-scrollbar {
+    display: none;
+}

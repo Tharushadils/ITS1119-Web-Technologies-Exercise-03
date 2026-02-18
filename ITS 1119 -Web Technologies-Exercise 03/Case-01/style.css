@@ -1,0 +1,124 @@
+
+.container {
+    width: 800px;
+    height: 400px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden; 
+    border: 2px solid black;
+}
+
+.box { width: 50%; 
+       height: 50%; 
+}
+
+.red { background-color: red; 
+}
+
+.green { background-color: green; 
+}
+
+.orange { background-color: orange; 
+}
+
+.pink { background-color: hotpink; 
+}
+
+.circle {
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box.circle {
+    width: 140px;
+    height: 140px;
+}
+
+.inner-red {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+}
+
+.one.circle { top: 25px; 
+              left: 130px; 
+}
+
+.two.circle { top: 25px; 
+              right: 130px; 
+}
+.three.circle { bottom: 25px; 
+                left: 130px; 
+}
+
+.four.circle { bottom: 25px; 
+               right: 130px; 
+}
+
+.center.white.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center.red.circle {
+    width: 70px;
+    height: 70px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.half.circle {
+    width: 120px;
+    height: 60px;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.up.half.circle {
+    top: 0;
+    border-radius: 0 0 60px 60px;
+}
+
+.down.half.circle {
+    bottom: 0;
+    border-radius: 60px 60px 0 0;
+}
+
+.edge {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.edge.red { top: -50px; 
+            left: -50px; 
+}
+
+.edge.green { top: -50px; 
+              right: -50px; 
+}
+
+.edge.orange { bottom: -50px; 
+               left: -50px; 
+}
+
+.edge.pink { bottom: -50px; 
+             right: -50px; 
+}

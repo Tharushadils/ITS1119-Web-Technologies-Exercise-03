@@ -1,0 +1,50 @@
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 2px solid black;
+}
+
+.top-nav a {
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
+
+.container {
+    display: flex;
+}
+
+.side-menu {
+    width: 220px;
+    background-color: darkblue; 
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.side-menu a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
+}
+
+.content {
+    padding: 25px;
+}
+
+.gallery {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+footer {
+    background-color: gray; 
+    color: white;
+    text-align: center;
+    padding: 12px 0;
+    font-size: 14px;
+}
