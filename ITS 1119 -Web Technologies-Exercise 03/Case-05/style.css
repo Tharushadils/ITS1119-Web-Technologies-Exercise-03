@@ -1,0 +1,21 @@
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 25vw);
+    grid-template-rows: repeat(3, 33.33vh);
+}
+
+.red      {  background: red; }
+.green    {  background: green; }
+.orange   {  background: orangered; }
+.purple   {  background: purple; }
+
+.pink     {  background: hotpink; }
+.blue     {  background: blue; }
+.brown    {  background: brown; }
+.violet   {  background: violet; }
+
+.darkblue {  background: darkblue; }
+.yellow   {  background: yellow; }
+.grey     {  background: grey; }
+.cyan     {  background: cyan; }
